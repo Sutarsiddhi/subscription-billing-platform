@@ -1,36 +1,27 @@
 # Python
 venv/
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
 # Environment
 .env
-.env.*
 
-# Alembic
-alembic/versions/*.pyc
-
-# Databases
+# Database
 *.db
-*.sqlite3
 
-# Logs
-*.log
+# Alembic cache
+.alembic
 
-# IDE
+# VS Code
 .vscode/
-.idea/
 
 # React
 node_modules/
 dist/
-build/
+
+# Logs
+*.log
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Python cache
-.pytest_cache/
-.mypy_cache/
